@@ -1,0 +1,40 @@
+*,*::after,*::before{
+   box-sizing: border-box;
+   font-family: Helvetica ,sans-serif;
+}
+body{
+   overflow: hidden;
+   background-color: #333333;
+   color: white;
+}
+.counter{
+   height:100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.timer{
+   display: flex;
+   gap: 1rem;
+   font-size: 2em;
+   list-style: none;
+}
+.btn-container button{
+   margin: 1rem;
+   border: none;
+   outline: none;
+   padding: 14px;
+   border-radius: 10px;
+   background-color: crimson;
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+   cursor: pointer;
+   transition: .4s;
+}
+button:hover{
+   background-color: white;
+   color: black;
+}
